@@ -1,15 +1,17 @@
 <script type="text/javascript">
     function initMap() {
-
-        var test ={lat: <%= @latitude %>, lng: <%= @longitude %>};
+        var lati = Number("<%= @latitude %>")
+        var long = Number("<%= @longitude %>")
+        // var test = { lat: 35.6580681, lng: 139.7515992 };
+        var test = { lat: lati , lng: long };
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
+            zoom: 8,
             center: test
         });
         var transitLayer = new google.maps.TransitLayer();
         transitLayer.setMap(map);
 
-        var contentString = '住所：<%= @address %>';
+        var contentString = '<%= @address %>';
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });

@@ -69,6 +69,6 @@ class MapsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def map_params
-      params.require(:map).permit(:address, :latitude, :longitude)
+      params.require(:map).permit(:address)
     end
 end
