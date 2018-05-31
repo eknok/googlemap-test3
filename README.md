@@ -1,24 +1,8 @@
 # README
+Rails5でGoogleMapを表示させる
+## 詳細
+詳しくはレポジトリにある`googlemap-test2`に記載  
+今回は`gem geocoder`のみでgooglemapを表示させる  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## MVC
+`rails g scaffold map address:string latitude:float longitude:float`
