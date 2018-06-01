@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'geocoder'
 # .envから環境変数を読み取り
 gem 'dotenv-rails'
+# railsの変数をjs内で使用
+gem 'gon'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
