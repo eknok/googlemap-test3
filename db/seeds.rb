@@ -6,11 +6,27 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-post = ['東京都', '東京都', '千葉県', '千葉県', '千葉県']
-city = ['港区', '新宿区', '野田市', '流山市', '']
 
-5.times do |i|
-  Map.create!(
-    address: post[i] + city[i]
-  )
+
+
+# ActiveSupport::JSONを使ってhoge.jsonをデコードしてrubyオブジェクトに変換。変数jsonに展開
+json = ActiveSupport::JSON.decode(File.read('sake_test.json'))
+
+# 変数jsonに入った配列状態のjsonデータを一つ一つ取り出して、モデル.createを使ってdbに投入
+json.each do |data|
+  data['city_r'].each do |city_r|
+    city_r['details'].each do |detail|
+      sleep(3)
+      Sake.create(
+        name: data['name_n'],
+        company: city_r['company'],
+        city: city_r['city'],
+        sake_name: detail['name'],
+        kana_name: detail['kana_name']
+        )
+        # Map.create!(
+        #   address: data['name_n']
+        # )
+    end
+  end
 end

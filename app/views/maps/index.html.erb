@@ -26,6 +26,37 @@
   </tbody>
 </table>
 
+<h1>Sake</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Company</th>
+      <th>City</th>
+      <th>Sake_name</th>
+      <th>Kana_name</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sakes.each do |sake| %>
+      <tr>
+        <td><%= sake.name %></td>
+        <td><%= sake.company %></td>
+        <td><%= sake.city %></td>
+        <td><%= sake.sake_name %></td>
+        <td><%= sake.kana_name %></td>
+        <td><%= sake.latitude %></td>
+        <td><%= sake.longitude %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
 <br>
 
 <%= link_to 'New Map', new_map_path %>
