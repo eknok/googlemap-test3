@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
+
+
 # ActiveSupport::JSONを使ってhoge.jsonをデコードしてrubyオブジェクトに変換。変数jsonに展開
 json = ActiveSupport::JSON.decode(File.read('sake_test.json'))
 
@@ -13,7 +16,8 @@ json = ActiveSupport::JSON.decode(File.read('sake_test.json'))
 json.each do |data|
   data['city_r'].each do |city_r|
     city_r['details'].each do |detail|
-      Post.create(
+      sleep(3)
+      Sake.create(
         name: data['name_n'],
         company: city_r['company'],
         city: city_r['city'],
