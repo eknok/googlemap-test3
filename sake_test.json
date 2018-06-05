@@ -1,0 +1,131 @@
+[
+{"name_n": "北海道", "city_r":[
+  {"company":"田中酒造","city":"小樽市", "details":[
+    {"name":"小樽の貴醸酒","kana_name":"おたるのきじょうしゅ"},
+    {"name":"亀甲蔵大吟醸","kana_name":"きっこうぐらだいぎんじょう"},
+    {"name":"寳川","kana_name":"たからがわ"},
+    {"name":"七年貯熟古酒","kana_name":"しちねんちょじゅくこしゅ"}]},
+  {"company":"男山","city":"旭川市", "details":[
+    {"name":"男山","kana_name":"おとこやま"}]},
+  {"company":"高砂酒造","city":"旭川市", "details":[
+    {"name":"国士無双","kana_name":"こくしむそう"}]},
+  {"company":"合同酒精旭川工場","city":"旭川市", "details":[
+    {"name":"大雪乃蔵","kana_name":"たいせつのくら"},
+    {"name":"北の誉","kana_name":"きたのほまれ"}]},
+  {"company":"小林酒造","city":"夕張郡栗山町", "details":[
+    {"name":"北の錦","kana_name":"きたのにしき"},
+    {"name":"北のろまん","kana_name":"きたのろまん"},
+    {"name":"吟風","kana_name":"ぎんぷう"},
+    {"name": "くらまち", "kana_name": "くらまち"},
+    {"name":"北斗随想","kana_name":"ほくとずいそう"},
+    {"name":"北海二七八","kana_name":"ほっかいにーななはち"},
+    {"name":"まる田","kana_name":"まるた"},
+    {"name":"雪晒","kana_name":"ゆきさらし"}]},
+  {"company":"株式会社江別商会","city":"江別市", "details":[
+    {"name":"江別の詩","kana_name":"えべつのうた"},
+    {"name": "ななかまど", "kana_name":"ななかまど"}]},
+  {"company":"金滴酒造","city":"樺戸郡新十津川町", "details":[
+    {"name":"おのらの酒","kana_name":"おのらのさけ"},
+    {"name":"北の微笑","kana_name":"きたのほほえみ"},
+    {"name":"きらら397","kana_name":"きららさんきゅうなな"},
+    {"name":"金滴","kana_name":"きんてき"},
+    {"name":"雫の浪漫","kana_name":"しずくのろまん"},
+    {"name":"瑞鳳","kana_name":"ずいほう"},
+    {"name":"杜氏の夢呑","kana_name":"とうじのゆめのみ"},
+    {"name":"徳富","kana_name":"とっぷ"},
+    {"name":"冬凪","kana_name":"ふゆなぎ"},
+    {"name":"微笑一献","kana_name":"ほほえみいっこん"},
+    {"name":"雪だるま","kana_name":"ゆきだるま"},
+    {"name":"夢きらら","kana_name":"ゆめきらら"},
+    {"name":"夢滴","kana_name":"ゆめしずく"}]},
+  {"company":"碓氷勝三郎商店","city":"根室市", "details":[
+    {"name":"北の勝","kana_name":"きたのかつ"}]},
+  {"company":"國稀酒造","city":"増毛町", "details":[
+    {"name":"國稀","kana_name":"くにまれ"},
+    {"name":"北海鬼ころし","kana_name":"ほっかいおにころし"},
+    {"name":"雪のかおり","kana_name":"ゆきのかおり"}]},
+  {"company":"日本清酒","city":"札幌市", "details":[
+    {"name":"千歳鶴","kana_name":"ちとせつる"}]},
+  {"company":"二世古酒造","city":"倶知安町", "details":[
+    {"name":"二世古","kana_name":"にせこ"}]},
+  {"company":"福司酒造","city":"釧路市", "details":[
+    {"name":"福司","kana_name":"ふくつかさ"},
+    {"name":"海底力","kana_name":"そこヂカラ"},
+    {"name":"花華","kana_name":"はなはな"},
+    {"name":"北輝光","kana_name":"ほっきこう"},
+    {"name":"海霧","kana_name":"うみぎり"},
+    {"name":"霧氷","kana_name":"むひょう"},
+    {"name":"霧小町","kana_name":"きりこまち"},
+    {"name":"千羽鶴","kana_name":"せんばつる"},
+    {"name":"しつげん","kana_name":"しつげん"},
+    {"name":"鮭ひれ酒","kana_name":"さけひれさけ"},
+    {"name":"ポンエペレ","kana_name":"ポンエペレ"},
+    {"name":"拾八","kana_name":"じゅうはち"},
+    {"name":"“く”しろうさぎ","kana_name":"くしろうさぎ"},
+    {"name":"鶴","kana_name":"つる"}]},
+  {"company":"山田酒造","city":"北見市", "details":[
+    {"name":"摩周","kana_name":"ましゅう"}]}
+]},
+{"name_n":"青森県", "city_r":[
+  {"company":"六花酒造","city":"弘前市", "details":[
+    {"name":"じょっぱり","kana_name":"じょっぱり"}]},
+  {"company":"三浦酒造店","city":"弘前市", "details":[
+    {"name":"豊盃","kana_name":"ほうはい"},
+    {"name":"ん","kana_name":"ん"}]},
+  {"company":"斎藤酒造","city":"弘前市", "details":[
+    {"name":"霊峰","kana_name":"れいほう"},
+    {"name":"雪の白神","kana_name":"雪の白神"},
+    {"name":"津軽の祭り","kana_name":"つがるのまつり"},
+    {"name":"北のまほろば","kana_name":"きたのまほろば"},
+    {"name":"六根","kana_name":"ろっこん"}]},
+  {"company":"吉井酒造","city":"弘前市", "details":[
+    {"name":"吉野桜","kana_name":"よしのさくら"}]},
+  {"company":"寿酒造","city":"弘前市", "details":[
+    {"name":"寿","kana_name":"ことぶき"}]},
+  {"company":"丸竹酒造","city":"弘前市", "details":[
+    {"name":"白神のロマン","kana_name":"しらかみのろまん"}]},
+  {"company":"白神酒造","city":"弘前市", "details":[
+    {"name":"白神","kana_name":"しらかみ"}]},
+  {"company":"八戸酒造","city":"八戸市", "details":[
+    {"name":"福牡丹","kana_name":"ふくぼたん"},
+    {"name":"八仙","kana_name":"はっせん"},
+    {"name":"田心","kana_name":"でんしん"},
+    {"name":"男山","kana_name":"おとこやま"}]},
+  {"company":"八戸酒類八鶴工場","city":"八戸市", "details":[
+    {"name":"八鶴","kana_name":"はちつる"},
+    {"name":"海の樹ロマン","kana_name":"うみのきろまん"}]},
+  {"company":"八戸酒類みなと工場","city":"八戸市", "details":[
+    {"name":"蔵の物語","kana_name":"くらのものがたり"}]},
+  {"company":"八戸酒類花開工場","city":"八戸市", "details":[
+    {"name":"俵づみ","kana_name":"たわらづみ"}]},
+  {"company":"八戸酒類五戸工場","city":"三戸郡五戸町", "details":[
+    {"name":"如空","kana_name":"じょくう"},
+    {"name":"秋あがり","kana_name":"あきあがり"}]},
+  {"company":"西田酒造店","city":"青森市", "details":[
+    {"name":"喜久泉","kana_name":"きくいずみ"},
+    {"name":"田酒","kana_name":"でんしゅ"}]},
+  {"company":"盛庄酒造店","city":"上北郡七戸町", "details":[
+    {"name":"駒泉","kana_name":"こまいずみ"},
+    {"name":"作田","kana_name":"さくた"}]},
+  {"company":"十和田正宗盛喜","city":"上北郡七戸町", "details":[
+    {"name":"十和田正宗","kana_name":"とわだまさむね"}]},
+  {"company":"桃川","city":"上北郡おいらせ町", "details":[
+    {"name":"桃川","kana_name":"ももかわ"}]},
+  {"company":"関乃井酒造","city":"むつ市", "details":[
+    {"name":"関乃井","kana_name":"せきのい"}]},
+  {"company":"鳩正宗","city":"十和田市", "details":[
+    {"name":"鳩正宗","kana_name":"はとまさむね"},
+    {"name":"八甲田おろし","kana_name":"はっこうだおろし"}]},
+  {"company":"中村亀吉","city":"黒石市", "details":[
+    {"name":"津軽娘","kana_name":"つがるむすめ"},
+    {"name":"亀吉","kana_name":"かめきち"},
+    {"name":"玉垂","kana_name":"たまだれ"},
+    {"name":"ねぶた囃子","kana_name":"ねぶたばやし"}]},
+  {"company":"尾崎酒造","city":"西津軽郡鰺ヶ沢町", "details":[
+    {"name":"安東水軍","kana_name":"あんどうすいぐん"},
+    {"name":"神の座","kana_name":"かみのざ"},
+    {"name":"白神のしずく","kana_name":"しらかみのしずく"}]},
+  {"company":"長内酒造店","city":"つがる市", "details":[
+    {"name":"明ケ烏","kana_name":"あけがらす"}]}
+]}
+]
